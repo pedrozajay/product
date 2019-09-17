@@ -60,9 +60,9 @@ $query->execute(array(':id' => $id));
 while($row = $query->fetch(PDO::FETCH_ASSOC))
 {
 	$name = $row['name'];
-	$age = $row['description'];
-	$email = $row['price'];
-	$email = $row['quantity'];
+	$description = $row['description'];
+	$price = $row['price'];
+	$quantity = $row['quantity'];
 }
 ?>
 <html>
